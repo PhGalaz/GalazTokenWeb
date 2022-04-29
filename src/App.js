@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/images/logo.svg';
+import './assets/styles/App.css';
+import Header from './components/Header';
+import SimpleStore from './components/SimpleStore';
+
+function HolaMundo(texto){
+  var test1 = <h2>Hola, soy {texto}</h2>
+  return test1
+}
+
+
+
+
 
 function App() {
+  var nombre = "Galaz Token"
+
+  const [] = useState();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <seccion className="componentes">
+
+      </seccion>
     </div>
   );
 }
